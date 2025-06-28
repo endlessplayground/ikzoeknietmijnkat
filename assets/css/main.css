@@ -33,6 +33,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+a {
+    color: inherit;
 }
 
 body {
@@ -56,7 +61,7 @@ footer {
   align-items: center;
   width: 105vw;
   height: 35px;
-  background: #91d0e7;color: blueviolet;
+  color: rgb(87, 19, 151);
   padding: 0 0 2px 0;
   text-align: center;
   position: fixed;
@@ -82,7 +87,7 @@ header {
 }
 
 header img {
-  width: 80%;
+  width: 84%;
   max-width: 700px;
 }
 
@@ -111,7 +116,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap; /* prevent wrapping */
-  max-width: 100vw;
+  max-width: 105vw;
   overflow-x: hidden;
   margin: -20 auto;
   gap: 0; /* we handle spacing with margins */
