@@ -1,0 +1,6 @@
+<p>> 
+  <a href="{{ "/" | relative_url }}">Home</a>
+  {% unless page.url == "/" %}
+    / {{ page.title }}
+  {% endunless %}
+</p>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <!--<header>
+      <h1><a href="{{ "/" | relative_url }}">My Clean Site</a></h1>
+    </header>-->
+
+    <!--<nav>
+      {% include breadcrumbs.html %}
+    </nav>-->
+
+    <main>
+      <section class="intro">
+        {% if page.intro %}
+          <p>{{ page.intro }}</p>
+        {% endif %}
+      </section>
+
+      <section class="content">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>
