@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiment Page</title>
+  
+ 
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+    /* Basic Reset and Box Sizing */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+
+    /* Body Base Style */
+    body {
+      height: 100%;
+      line-height: 1.6;
+      background-color: #eaf2d7;
+      color: #333;
+      font-family: "Special Elite", system-ui;
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .page {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+    a, a:visited {
+      color: inherit;
+    }
+    .logo {
+      position: fixed;
+      top: -10px;
+      left: calc(10% - 25px);
+      visibility: hidden;
+    }
+   .logo img {
+      width: 90px;
+   }
+    nav {
+      background-color: inherit;
+      /* box-shadow: 3px 3px 5px rgba(110, 107, 107, 0.341); */
+      position: fixed;
+      width: 100%;
+      padding: 2px 0 3px 0;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+    nav ul {
+      width: 85%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 9%;
+    }
+    nav li {
+      height: 40px;
+      width: calc(105px + 8%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px 0 3px;
+    }
+    nav .hideOnMobile a {
+      height: 40px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      text-decoration: none;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.419);
+    }
+    nav a:hover {
+      color: red;
+      font-size: 1.15em;
+/*      transition: all 0.3s ease; */
+    }
+    nav .hideOnMobile a:hover {
+      background-color: rgba(255, 255, 255, 0.54);
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      z-index: 2;
+      background-color: rgba(241, 241, 232, 0.90);
+/*      backdrop-filter: blur(1px); */
+      filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: center;
+      z-index: 12;
+    }
+    .sidebar li, .sidebar li a {
+      justify-content: center;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .open-close  {
+      position: absolute;
+      right: 5px;
+      top: 6px;
+      width: 40px;
+      background-color: none;
+    }
+    .menu-button {
+      display: none;
+      cursor: pointer;
+    }
+    .main-cat {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 428px;
+      width: 500px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      z-index: -1;
+      pointer-events: none;
+      background-image: url(/assets/images/big-cat.svg);     
+      background-repeat: no-repeat; 
+      background-size: contain;
+      background-position: center;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 80px;
+      margin-left: calc(34% - 130px);
+      z-index: 6;
+    }
+    section {
+      width: 450px;
+      padding: 0 18px 0 26px;
+    }
+    /*footer {
+      position: fixed; 
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 4px 0 1px 0;
+      padding-left: calc(17% - 65px);
+      line-height: 0.9;
+      width: 100%;
+      font-size: 1.8em;
+      overflow-x: hidden;
+      overflow-y: hidden !important;
+      background-color: rgba(10, 229, 253, 0.619);
+      z-index: 10;
+      visibility: hidden; 
+    }*/
+    header {
+      background-color: #333;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 55px;
+      z-index: 18;
+      background-image: url(/assets/images/ikzoekniet_vert.svg);     
+      background-repeat: no-repeat; 
+      background-size: contain;
+      background-position: center;
+      z-index: 10;
+
+    }
+
+    /*footer img {
+      height: 100vh;
+      width: auto;
+      display: block;
+    }*/
+    .dots {
+      font-size: 0.8em;
+      letter-spacing: 0.15em; 
+      display: inline-block;
+      padding: 2px;
+      margin: 0 3px;
+    }
+    @media(max-width:600px) {
+      .hideOnMobile {
+        display: none;
+      }
+      .topbar {
+        background-color: none !important;
+        height: 0px;
+      }
+      .menu-button {
+        display: block;
+      }
+      main {
+        align-items: center;
+        margin-left: calc(3% - 10px);
+      }
+      section {
+        width: 350px;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 0px;
+        height: 50px;
+        width: 100%;
+        z-index: 18;
+        background-image: url(/assets/images/ikzoekniet_hor.svg);     
+        background-repeat: no-repeat; 
+        background-size: contain;
+      }
+      nav {
+        background-color: #333;
+        z-index: 40;
+      }
+      .main-cat {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: 200px;
+        width: 650px;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        z-index: -1;
+        pointer-events: none;
+        background-image: url(/assets/images/little-cat.svg);     
+        background-repeat: no-repeat; 
+        background-size: contain;
+        background-position: center;
+        z-index: 2;
+      }
+    }
+    @media(max-width:500px) {
+      .sidebar {
+        width: 100%;
+      }
+    }
+    @media(min-width:700px) {
+      .sidebar {
+        display: none;
+      }
+    }
+
+     /* Simple Helpers */
+    h1, h2, h3 {
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      margin-bottom: 1.53em;
+        text-shadow: 1px 1px 0px #eaf2d7;
+    }
+
+    /* Add your own styles below this line */
+    
+  </style>
+</head>
+
+<body>
+  <header></header>
+<nav>
+  <div class="logo"><img src="/assets/images/cat_logo.png" alt=""></div>
+  <ul class="sidebar">
+    <li onclick=hideSidebar()><img src="/assets/images/close.svg" alt="" class="open-close"></li>
+    <li><a href="#">Wie</a></li>
+    <li><a href="#">Wat</a></li>
+    <li><a href="#">Hoe</a></li>
+    <!--<li><a href="#">Waar</a></li>-->
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <ul class="topbar">
+    <li class="hideOnMobile"><a href="#">Wie</a></li>
+    <li class="hideOnMobile"><a href="#">Wat</a></li>
+    <li class="hideOnMobile"><a href="#">Hoe</a></li>
+    <!--<li class="hideOnMobile"><a href="#">Waar</a></li>-->
+    <li class="hideOnMobile"><a href="#">Contact</a></li>
+    <li class="menu-button" onclick=showSidebar()><img src="/assets/images/open.svg" alt="" class="open-close"></li>
+  </ul>
+</nav>
+
+<main>
+  <section>
+    <p>Wel of geen kat, daar gaat het dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar een manier om een experiment te starten.</p>
+
+<!--Ideeën uitwisselen, thema-gesprekken, wandelen, koffie... met mensen die hier ook iets in zien.-->
+<p> Koffie, buitenlucht, boeken, wetenschap, kunst, film, muziek... of&nbsp;misschien een artikel dat je recent las, het kan allemaal tot een mooi gesprek leiden. </p>
+
+<p>Het begint hier. Als je zin hebt om mee te doen en te denken, laat het me weten.</p>
+
+  </section>
+</main>
+
+<footer></footer>
+
+<div class="main-cat"></div>
+
+
+<script>
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+</script>
+
+<script>
+  window.addEventListener('resize', () => {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+  });
+</script>
+
+<script>
+  function updateRightOffset() {
+    const catDiv = document.querySelector('.main-cat');
+    const screenWidth = window.innerWidth;
+    const offset = -220000 / screenWidth + 140; // adjust as needed
+    catDiv.style.right = offset + 'px';
+  }
+
+  window.addEventListener('load', updateRightOffset);
+  window.addEventListener('resize', updateRightOffset);
+</script>
+
+</body>
+</html>
