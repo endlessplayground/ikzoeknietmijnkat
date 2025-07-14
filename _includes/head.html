@@ -3,4 +3,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <style>
+    header {
+      background-color: #333;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 55px;
+      z-index: 10;
+      background-image: url("{{ '/assets/images/ikzoekniet_vert.svg' | relative_url }}");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  </style>
 </head>
