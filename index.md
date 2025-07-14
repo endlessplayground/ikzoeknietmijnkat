@@ -4,11 +4,11 @@ title: Home
 ---
 
 <section>
-<p>Wel of geen kat, daar gaat het dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar een manier om een experiment te starten.</p>
+<p>Wel of geen kat, daar gaat het dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar een poging om mensen te zoeken voor...</p>
 
-<p>Koffie, buitenlucht, boeken, wetenschap, kunst, film, muziek... of&nbsp;misschien een artikel dat je recent las, het kan allemaal tot een mooi gesprek leiden.</p>
+<p>...koffie, buitenlucht, boeken, wetenschap, kunst, film, muziek... of&nbsp;misschien een artikel dat je recent las. Het kan allemaal tot een mooi gesprek leiden.</p>
 
-<p>Het begint hier. Als je zin hebt om mee te doen en denken, laat het me weten.</p>
+<p>Het begint hier. Lijkt het je wat, laat het me weten.</p>
 </section>
 
 <div class="bottom">
