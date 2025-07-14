@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+<html lang="nl">
+  {% include head.html %}
   <body>
-    <!--<header>
-      <h1><a href="{{ "/" | relative_url }}">My Clean Site</a></h1>
-    </header>-->
-
-    <!--<nav>
-      {% include breadcrumbs.html %}
-    </nav>-->
+    {% include header.html %}
+    {% include nav.html %}
 
     <main>
-      <section class="intro">
-        {% if page.intro %}
-          <p>{{ page.intro }}</p>
-        {% endif %}
-      </section>
-
-      <section class="content">
-        {{ content }}
-      </section>
+      {{ content }}
     </main>
 
-    <footer>
-      {% include footer.html %}
-    </footer>
+    {% include scripts.html %}
+
+<script>
+  function updateRightOffset() {
+    const catDiv = document.querySelector('.main-cat');
+    const screenWidth = window.innerWidth;
+    const offset = -220000 / screenWidth + 140; // adjust as needed
+    catDiv.style.right = offset + 'px';
+  }
+
+  window.addEventListener('load', updateRightOffset);
+  window.addEventListener('resize', updateRightOffset);
+</script>
+
   </body>
 </html>
