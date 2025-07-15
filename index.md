@@ -4,10 +4,6 @@ title: Home
 ---
 
 <section>
-<p>Contact link resolves to: {{ '/contact/' | relative_url }}</p>
-
-<p>Resolved contact URL: {{ '/contact/' | relative_url | absolute_url }}</p>
-  
 <p>Wel of geen kat, daar gaat het hier dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar naar <span class="nowrap">iets&nbsp;anders<span class="dots">...</span></span></p>
 
 <p><span class="dots">...</span>koffie, buitenlucht, boeken, wetenschap, kunst, film, muziek<span class="dots">...</span>of&nbsp;misschien een artikel dat je recent las. Het kan allemaal leiden tot een mooi gesprek.</p>
