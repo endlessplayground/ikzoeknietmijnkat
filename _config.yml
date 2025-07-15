@@ -1,3 +1,4 @@
 title: My Clean Site
 description: A simple Jekyll site with clear structure
+baseurl: "/ikzoeknietmijnkat"  # name of your repo
 theme: minima
