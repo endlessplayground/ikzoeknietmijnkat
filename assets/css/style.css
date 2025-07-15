@@ -188,7 +188,6 @@
       background-size: contain;
       background-position: center;
       z-index: 10;
-
     }
 
     /*footer img {
@@ -216,11 +215,11 @@
       }
       main {
         align-items: center;
-        margin-left: calc(3% - 10px);
+        margin-left: calc(0% - 5px);
       }
       section {
         width: 350px;
-        padding: 0;
+        padding: 10;
       }
       header {
         background-color: #333;
@@ -250,7 +249,7 @@
         overflow: hidden;
         z-index: -1;
         pointer-events: none;
-        background-image: url(/assets/images/little-cat.svg);     
+        background-image: url(/assets/images/big-cat.svg);     
         background-repeat: no-repeat; 
         background-size: contain;
         background-position: center;
@@ -278,8 +277,9 @@
     }
 
     p {
-      margin-bottom: 1.53em;
+        margin-bottom: 1.53em;
         text-shadow: 1px 1px 0px #eaf2d7;
+        text-align: center;
     }
 
     /* Add your own styles below this line */

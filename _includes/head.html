@@ -33,7 +33,24 @@
         background-repeat: no-repeat; 
         background-size: contain;
       }
-    }
-
+      .main-cat {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: 200px;
+        width: 650px;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        z-index: -1;
+        pointer-events: none;
+        background-image: url(/assets/images/little-cat.svg);     
+        background-repeat: no-repeat; 
+        background-size: contain;
+        background-position: center;
+        z-index: 2;
+        visibility: hidden;
+      }
+}
   </style>
 </head>
