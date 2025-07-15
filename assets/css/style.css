@@ -12,12 +12,21 @@
     body {
       height: 100%;
       line-height: 1.6;
-      background-color: #eaf2d7;
+      background-color: #a8df28;
       color: #333;
       font-family: "Special Elite", system-ui;
       font-size: 18px;
       font-weight: 400;
       font-style: normal;
+    }
+    .background {
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: #eaf2d7;
+      width: 100vw;
+      height: 100vh;
+      z-index:-3;
     }
     .page {
       position: relative;
