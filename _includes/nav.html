@@ -3,17 +3,18 @@
     <li onclick="hideSidebar()">
       <img src="{{ '/assets/images/close.svg' | relative_url }}" alt="" class="open-close">
     </li>
-    <li style="margin-top: 25px;"><a href="/index/">HOME</a></li>
-    <li><a href="/wie/">Wie</a></li>
-    <li><a href="/wat/">Wat</a></li>
-    <li><a href="/waar/">Waar</a></li>
-    <li><a href="/contact/">Contact</a></li>
+    <li style="margin-top: 25px;"><a href="{{ '/index/' | relative_url }}">HOME</a></li>
+    <li><a href="{{ '/Wie/' | relative_url }}">Wie</a></li>
+    <li><a href="{{ '/Wat/' | relative_url }}">Wat</a></li>
+    <li><a href="{{ '/waar/' | relative_url }}">Waar</a></li>
+    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    
   </ul>
   <ul class="topbar">
-    <li class="hideOnMobile"><a href="/wie/">Wie</a></li>
-    <li class="hideOnMobile"><a href="/wat/">Wat</a></li>
-    <li class="hideOnMobile"><a href="/waar/">Waar</a></li>
-    <li class="hideOnMobile"><a href="/contact/">Contact</a></li>
+    <li class="hideOnMobile"><a href="{{ '/Wie/' | relative_url }}">Wie</a></li>
+    <li class="hideOnMobile"><a href="{{ '/Wat/' | relative_url }}">Wat</a></li>
+    <li class="hideOnMobile"><a href="{{ '/waar/' | relative_url }}">Waar</a></li>
+    <li class="hideOnMobile"><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
     <li class="menu-button" onclick="showSidebar()">
       <img src="{{ '/assets/images/open.svg' | relative_url }}" alt="" class="open-close">
     </li>
