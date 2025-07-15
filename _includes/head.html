@@ -18,7 +18,23 @@
       background-size: contain;
       background-position: center;
     }
-
+    .main-cat {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 428px;
+      width: 500px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      z-index: -1;
+      pointer-events: none;
+      background-image: url(/assets/images/big-cat.svg);
+      background-image: url("{{ '/assets/images/big-cat.svg' | relative_url }}");     
+      background-repeat: no-repeat; 
+      background-size: contain;
+      background-position: center;
+    }
     @media(max-width:600px) {
       header {
         background-color: #333;
