@@ -47,7 +47,7 @@
       width: 90px;
    }
     nav {
-      background-color: inherit;
+      background-color: #eaf2d7;
       /* box-shadow: 3px 3px 5px rgba(110, 107, 107, 0.341); */
       position: fixed;
       width: 100%;
@@ -55,6 +55,7 @@
       top: 0;
       left: 0;
       z-index: 2;
+      font-size: 1.15em;
     }
     nav ul {
       width: 85%;
@@ -85,7 +86,7 @@
     }
     nav a:hover {
       color: red;
-      font-size: 1.15em;
+      font-size: 1.25em;
 /*      transition: all 0.3s ease; */
     }
     nav .hideOnMobile a:hover {
