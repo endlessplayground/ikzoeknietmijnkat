@@ -2,8 +2,13 @@
 
     :root {
     --main-color: hsl(75, 100%, 50%);
+    --main-color-hover: hsl(80, 100%, 50%);
     --bgr-color: #eaf2d7;
     --dark-grey: #333;
+
+    --border-width: 6px;
+    --home-size: 58px;
+    --expansion: 6px;
     }   
 
     /* Basic Reset and Box Sizing */
@@ -36,21 +41,34 @@
     }
     .home {
         position: fixed;
-        width: 60px;
-        height: 60px;
+        width: var(--home-size);
+        height: var(--home-size);
         border-radius: 100%;
-        border: 6px solid  var(--bgr-color);
-        background-color: var(--dark-grey);
-        top: -5px;
+        border: var(--border-width) solid  var(--bgr-color);
+        background-color: var(--main-color);
+        overflow: hidden;
+        top: -3px;
         right: calc(4% - 20px);
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 30;
+        z-index: 30; 
         visibility: hidden;
+        transition: all 0.05s ease;
+
+    }
+    .home:hover {
+        width: calc(var(--home-size) + var(--expansion));
+        height: calc(var(--home-size) + var(--expansion));
+        top: calc(-5px - (var(--expansion) / 2));
+        right: calc(4% - 20px - (var(--expansion) / 2));
+        background-color: var(--main-color-hover);
     }
     .home img {
-        width: 40px;
+        width: 105%;
+    }
+    .example {
+        width: calc((100% - (var(--sidebar-width) + 10px)) / 2 - var(--gap));
     }
     .page {
       position: relative;
@@ -110,11 +128,11 @@
     }
     nav a:hover {
       color: red;
-      font-size: 1.25em;
+      font-size: 1.15em;
 /*      transition: all 0.3s ease; */
     }
     nav .hideOnMobile a:hover {
-      background-color: rgba(255, 255, 255, 0.54);
+      background-color: var(--main-color-hover);
     }
     .sidebar {
       position: fixed;

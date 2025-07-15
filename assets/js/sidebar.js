@@ -6,3 +6,7 @@
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
   }
+  window.addEventListener('resize', () => {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+  });
