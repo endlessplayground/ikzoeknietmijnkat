@@ -5,11 +5,11 @@ title: Wie
 
 <section>
 <h1>Wie</h1>
-<p>Hee, ik ben Yvon. Net 60 geworden en met een soort missie.</p>
+<p>Ik ben Yvon. Net 60 geworden en met een zekere missie. Om die reden heb ik deze website gemaakt.</p>
 
-<p>Hier volgt meer over mij, maar zeker niet teveel.</p>
+<p>[Hier volgt meer over mij, maar zeker niet teveel.]</p>
 
-<p>Wie weet ontmoeten we elkaar ergens.</p>
+<p>Jij?</p>
 </section>
 
 <div class="bottom">
