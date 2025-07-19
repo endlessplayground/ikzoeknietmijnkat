@@ -250,6 +250,7 @@ h1 {
   font-size: 1.4rem;
   font-weight: bold;
  color: #9cd11f;
+white-space: nowrap;
 }
     .nowrap {
         white-space: nowrap;
