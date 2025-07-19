@@ -19,7 +19,7 @@ title: Home
   <a href="#">#etc.</a> 
   </p>
 
-<p>Het begint hier. Lijkt het je wat, laat&nbsp;het&nbsp;me&nbsp;weten.&nbsp;<span class="noshadow">&#128578;</span></p>
+<p>Zoek mee!&nbsp;<span class="noshadow">&#128578;</span></p>
 </section>
 
 <div class="bottom">
