@@ -7,7 +7,10 @@ title: Home
 <h1>Gezocht</h1>
 <p>Wel of geen kat, daar gaat het hier dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar naar <span class="nowrap">iets&nbsp;anders<span class="dots">...</span></span></p>
 
-<p><a href="#">#gesprekken</a> <a href="#">#koffie</a> 
+<p>
+  <a href="#">#gesprekken</a> 
+  <a href="#">#koffie</a>   
+  <a href="#">#buitenlucht</a>  
   <a href="#">#wetenschap</a>  
   <a href="#">#nieuwsgierigheid</a> 
   <a href="#">#boeken</a> 
