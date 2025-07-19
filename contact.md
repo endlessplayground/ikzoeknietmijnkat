@@ -5,7 +5,7 @@ title: Contact
 
 <section>
   <h1>Contact</h1>
-<p>Leuk, stuur een mail! &#128578;</p>
+<p>Leuk als je me een mail stuurt! &#128578;</p>
 
 <p style="line-height:0.5;"><a href="mailto:ikzoeknietmijnkat@gmail.com">ikzoeknietmijnkat<span class="at">@</span>gmail.com</a></p>
 
