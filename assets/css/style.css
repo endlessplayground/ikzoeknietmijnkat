@@ -246,9 +246,8 @@ h1 {
     }
     .hashtag {
   display: inline-block;
-  transform: skewX(10deg) scale(1.5, 0.9); /* skew backwards and stretch horizontally */
+  transform: skewX(15deg) scale(1.5, 0.9); /* skew backwards and stretch horizontally */
   font-size: 1.4rem;
-  font-weight: bold;
  color: #9cd11f;
 white-space: nowrap;
 }
