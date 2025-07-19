@@ -4,6 +4,7 @@ title: Contact
 ---
 
 <section>
+  <h1>Contact</h1>
 <p>(Meer) informatie? Stuur een mail naar:</p>
 
 <p style="line-height:0.5;"><a href="mailto:ikzoeknietmijnkat@gmail.com">ikzoeknietmijnkat<span class="at">@</span>gmail.com</a></p>
