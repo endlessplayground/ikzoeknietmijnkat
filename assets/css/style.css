@@ -249,6 +249,7 @@ h1 {
   transform: skewX(15deg) scale(1.5, 0.9); /* skew backwards and stretch horizontally */
   font-size: 1.4rem;
  color: #9cd11f;
+    }
     .nowrap {
         white-space: nowrap;
     }
