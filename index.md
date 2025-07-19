@@ -22,7 +22,7 @@ title: Home
     <a href="#"><span class="hashtag">#</span>etc.</a> 
   </p>
 
-  <p>Zoek mee!&nbsp;<span class="noshadow">&#129488;</span></p>
+  <p>Mensen om dat mee te delen&nbsp;<span class="dots">...</span><span class="noshadow">&#129488;</span></p>
 </section>
 
 <div class="bottom">
