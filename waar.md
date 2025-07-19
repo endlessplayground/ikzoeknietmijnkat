@@ -4,6 +4,7 @@ title: Waar
 ---
 
 <section>
+  <h1>Waar</h1>
 <p>Een park, een café, of DOK<span class="dots">...</span></p>
 
 <p>Nader te bepalen.</p>
