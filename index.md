@@ -8,7 +8,7 @@ title: Home
 <p>Wel of geen kat, daar gaat het hier dus niet om. Dit is geen zoektocht naar een vermist huisdier, maar naar <span class="nowrap">iets&nbsp;anders<span class="dots">...</span></span></p>
 
 <p>
-  <a href="#"><span class="at">#</span>gesprekken</a>&nbsp;&nbsp;<a href="#">#koffie</a>&nbsp;&nbsp;<a href="#">#buitenlucht</a>&nbsp;&nbsp;<a href="#">#wetenschap</a>&nbsp;&nbsp;<a href="#">#nieuwsgierigheid</a>&nbsp;&nbsp;<a href="#">#boeken</a>&nbsp;&nbsp;<a href="#">#mensen</a>&nbsp;&nbsp;<a href="#">#artikelen</a>&nbsp;&nbsp;<a href="#">#etc.</a> 
+  <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>gesprekken</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>koffie</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>buitenlucht</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>wetenschap</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>nieuwsgierigheid</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>boeken</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>mensen</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>artikelen</a>&nbsp;&nbsp; <a href="#"><span style="color:#99c72e;font-size:1.3em">#</span>etc.</a> 
   </p>
 
 <p>Zoek mee!&nbsp;<span class="noshadow">&#129488;</span></p>
