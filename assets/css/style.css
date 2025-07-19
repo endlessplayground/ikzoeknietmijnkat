@@ -249,8 +249,10 @@ h1 {
     }
     .noshadow {
       text-shadow: none;
-
     }
+p a {
+      text-decoration: underline;
+}
     @media(max-width:600px) {
       .hideOnMobile {
         display: none;
