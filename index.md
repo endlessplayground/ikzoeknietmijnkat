@@ -15,7 +15,6 @@ title: Home
     <a href="#"><span class="hashtag">#</span>koffie</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>buitenlucht</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>wetenschap</a>&nbsp;  
-    <a href="#"><span class="hashtag">#</span>nieuwsgierigheid</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>boeken</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>mensen</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>artikelen</a>&nbsp; 
