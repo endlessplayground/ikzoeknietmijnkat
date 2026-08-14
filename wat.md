@@ -7,7 +7,7 @@ title: Wat
   <h1>Wat</h1>
 <p>Helemaal precies weet ik dat nog niet. Ik vond het gewoon leuk om dit ʻframeʼ te maken, en die katten-plaatjes en zo.</p>
 
-<p>Dus later meer!</span></p>
+<p>Dus later meer!</p>
 
 <p><span class="dots">...</span></p>
 </section>
