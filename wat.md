@@ -5,9 +5,9 @@ title: Wat
 
 <section>
   <h1>Wat</h1>
-<p>Wandelen, koffie drinken, gedachten delen. Nog geen vaste vorm, nog geen vaste mensen, nog geen vaste thema’s. </p>
+<p>Helemaal precies weet ik dat nog niet. Ik vond het gewoon leuk dit ʻframeʼ te maken, en die katten-plaatjes en zo</p>
 
-<p>Met ruimte voor die ideeën die ik zélf nog niet helemaal helder heb<span class="dots">...</span></p>
+<p>Dus later meer!</span></p>
 
 <p><span class="dots">...</span></p>
 </section>
