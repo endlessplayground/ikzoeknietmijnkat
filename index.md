@@ -11,7 +11,7 @@ title: Home
   </p>
 
   <p>
-    <a href="#"><span class="hashtag">#</span>gesprekken</a>&nbsp; 
+    <a href="#"><span class="hashtag">#</span>inspiratie</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>koffie</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>buitenlucht</a>&nbsp; 
     <a href="#"><span class="hashtag">#</span>wetenschap</a>&nbsp;  
