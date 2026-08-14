@@ -5,7 +5,7 @@ title: Wie
 
 <section>
 <h1>Wie</h1>
-<p>Ik ben Yvon, net 60 geworden, en met een zekere missie. Om die reden heb ik deze website gemaakt.</p>
+<p>Ik ben Yvon, en heb een zekere missie. Om die reden heb ik deze website gemaakt.</p>
 
 <p>Jij?</p>
 </section>
